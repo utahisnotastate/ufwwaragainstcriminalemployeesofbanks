@@ -26,6 +26,8 @@ The defenders fight at a disadvantage, because the evidence arrives years late a
 
 The nine *Future Disclosure Banking Crimes* documents form an open catalogue of investigative hypotheses, written as a retrospective thought experiment from a future audit vantage point. They describe theoretical offenders and name no suspect. Their value lies in the typologies and audit tests that hold up against the public record, as reviewed in Annex A.
 
+The full catalogue is [open for public review on GitHub](https://github.com/utahisnotastate/ufwwaragainstcriminalemployeesofbanks). It holds the corrected documents, the originals, a record of every change, and a [scheme tracker](../review/scheme-tracker.md) that gives all 100 schemes a stable ID, a rating and a one-line basis. Anyone can [challenge a claim, a rating or a formula](../CONTRIBUTING.md) in public, using the evidence standards published there.
+
 - **Field Directive 01 | Collateral, Settlement and Benchmark Integrity (Part 1)**
   - *Operational Scope:* Tests for double-pledged collateral, quarter-end window dressing, benchmark manipulation, off-market sovereign swaps and illicit flows through correspondent accounts.
   - *Public-Record Precedent:* Lehman's Repo 105, the [2015 FX antitrust guilty pleas](https://justice.gov/opa/pr/five-major-banks-agree-parent-level-guilty-pleas) by four banks, and [ADR pre-release cases](https://www.sec.gov/adr-enforcement) totaling nearly $432 million.
@@ -65,7 +67,7 @@ The nine *Future Disclosure Banking Crimes* documents form an open catalogue of 
 
 ## III. Rules of Engagement: From Lead to Evidence
 
-The catalogue is a source of leads, never of proof, and 53 of its 100 schemes merit investigative attention. Of those, 22 match documented conduct and 31 are plausible leads. Another 31 describe lawful conduct or policy disputes, and 16 lack support.
+The catalogue is a source of leads, never of proof, and 53 of its 100 schemes merit investigative attention. Of those, 22 match documented conduct and 31 are plausible leads. Another 31 describe lawful conduct or policy disputes, and 16 lack support. These ratings are a first pass by an AI system. No lawyer, bank examiner or financial-crime investigator has reviewed them yet, which is why the work is open to public challenge.
 
 1. **Start from a lawful predicate.** No investigation should open on the catalogue alone. A lead needs independent facts tied to a specific subject.
 2. **Prove the offense, not the pattern.** Each case must establish the statutory elements, including intent where required. Reusing collateral with consent is lawful; pledging the same asset twice as unencumbered is the fraud.
@@ -80,11 +82,12 @@ No Nobel Prize in Warfare exists, and the Nobel Foundation's [own history](https
 
 A nation cannot defend itself if its treasury pays refunds for tax never collected, its banks report capital they do not have, or its pensioners hold claims on collateral already pledged elsewhere. The forensic accountants, examiners, prosecutors and whistleblowers who expose these acts serve on an active front. So do those who build open investigative methods for them.
 
-This petition makes three requests:
+This petition makes four requests:
 
 1. **To the Nobel Foundation and the Norwegian Nobel Committee:** consider recognition of frontline valor in Financial Integrity and Banking Crime Defense. If no new category is possible, consider this work within the Peace Prize's concern for the foundations of peace.
 2. **To [qualified nominators](https://www.nobelpeaceprize.org/nobel-peace-prize/nomination/criteria-for-nominators):** weigh nominating individuals whose work has produced proven results. Self-nomination is not permitted, so this memorandum cannot itself serve as a nomination.
 3. **To financial law enforcement and bank supervisors:** test the corrected catalogue against closed cases, publish what works, and discard what does not.
+4. **To lawyers, examiners, investigators and the public:** [review the catalogue](../CONTRIBUTING.md), challenge any claim with evidence, and help separate proven conduct from speculation.
 
 The measure of this arsenal should be results: cases opened, frauds proven, and losses recovered. National defense begins in the ledger, and this petition calls upon the law enforcement community to test these tools and the Nobel assembly to recognize frontline valor on this front.
 
@@ -93,6 +96,8 @@ The measure of this arsenal should be results: cases opened, frauds proven, and 
 The documents are useful to law enforcement as a typology and audit checklist, but not as a statement of fact. Their future-audit framing is a literary device with no evidentiary weight, so the ratings below test only the claims that can be checked today.
 
 The set holds 20 batches of five schemes each, or 100 in total. Batch 13 appears in both Part 5 and Part 6 and is counted once. Ratings are review judgments, not legal findings.
+
+The [scheme tracker](../review/scheme-tracker.md) gives the rating and basis for every scheme.
 
 - **Documented:** a court, regulator or official record shows essentially this conduct.
 - **Plausible lead:** the mechanism is real, but it is a crime only on specific facts, or the claimed scale is unproven.
@@ -118,11 +123,11 @@ The largest systemic flaw is that the documents call lawful practices "fraud," "
 
 ## Annex B: Corrections Before Law-Enforcement Use
 
-The documents should not reach investigators until these errors are fixed, because each one would send a reader to the wrong law, data source or conclusion. These corrections are applied in the [corrected edition](../documents/); the Gemini scripts have not been rebuilt.
+These errors are corrected in the [GitHub edition](../documents/), because each one would send a reader to the wrong law, data source or conclusion. The [original documents](../archive/original/) remain archived there for comparison.
 
 | Part | What the document says | Correction |
 | --- | --- | --- |
-| 1 | ACH and wires are structured below $10,000 to avoid BSA triggers | The [CTR](https://www.law.cornell.edu/cfr/text/31/1010.311) covers currency only. Funds transfers fall under the [$3,000 recordkeeping rule](https://www.law.cornell.edu/cfr/text/31/1010.410). The $9,800-$9,990 ACH test needs redesign. |
+| 1 | ACH and wires are structured below $10,000 to avoid BSA triggers | The [CTR](https://www.law.cornell.edu/cfr/text/31/1010.311) covers currency only. Funds transfers fall under the [$3,000 recordkeeping rule](https://www.law.cornell.edu/cfr/text/31/1010.410). The $9,800-$9,990 ACH test was redesigned. |
 | 1 | Section 546(e) grants QFCs immunity from the automatic stay | [Section 546(e)](https://www.law.cornell.edu/uscode/text/11/546) limits avoidance actions. Stay exemptions are in [section 362(b)](https://www.law.cornell.edu/uscode/text/11/362), and QFC is a [banking-law term](https://www.law.cornell.edu/uscode/text/12/1821). |
 | 1 | Dodd-Frank and BRRD reclassified deposits as unsecured liabilities | No such reclassification was found. US deposits carry [$250,000 insurance and priority](https://www.law.cornell.edu/uscode/text/12/1821), and covered deposits are [excluded from EU bail-in](https://www.eba.europa.eu/single-rule-book-qa/qna/view/publicId/2015_2435). |
 | 1, 7 | Banks window-dress to meet reserve requirements | Reserve requirements have been [zero since March 26, 2020](https://www.federalreserve.gov/monetarypolicy/reservereq.htm). |
@@ -146,7 +151,7 @@ The documents should not reach investigators until these errors are fixed, becau
 | 9 | Prepaid forwards bypass Form 4 | Insiders [do report them](https://www.sec.gov/Archives/edgar/data/1883685/000181019026000010/xslF345X06/wk-form4_1778882212.xml) as derivative transactions under [Section 16](https://www.law.cornell.edu/cfr/text/17/240.16b-6). The offense to test for is a missing or false filing. |
 | 9 | PIPE investors redeem their cash | Redemption rights attach to [public SPAC shares](https://www.freewritings.law/wp-content/uploads/sites/24/2022/02/StayingNimbleSPACPIPE.pdf), not PIPE commitments. |
 
-**Formula errors**
+**Formula errors (corrected or annotated)**
 
 - **SDM (Part 1):** The metric is multiplied by notional, so its dollar result cannot be compared with 5%. Compare against the market forward rate, not spot.
 - **PALDI (Part 7):** The formula divides by the risk-free rate and overstates the result. At 7.0% assumed, 4.5% risk-free and 14 years, it gives 778% of liabilities, not the 35% the text states. Use duration × rate gap.
@@ -155,10 +160,10 @@ The documents should not reach investigators until these errors are fixed, becau
 
 **Document cleanup**
 
-- Remove the second copy of Batch 13, the "Say 'CONTINUE'" prompts, the "\[cite: 8\]" residue and the ZEO-ARCHITECT status banners.
-- Remove "illegal" and "fraudulent" from threshold tests unless a statute supports the word. Each threshold is an unvalidated screen.
-- Remove the SLE 0.555 calibration in Part 1, which has no forensic meaning.
-- Rebuild the 19 Gemini scripts before any use. They send data to an outside model, trust its reply, and label ordinary cloud storage as immutable evidence. Their hashes include the clock, so they cannot be reproduced.
+- Removed the second copy of Batch 13, the "Say 'CONTINUE'" prompts, the "\[cite: 8\]" residue and the ZEO-ARCHITECT status banners.
+- Replaced "illegal" and "fraudulent" in threshold tests with review steps. Each threshold is an unvalidated screen.
+- Removed the SLE 0.555 calibration in Part 1, which has no forensic meaning.
+- Still to do: rebuild the 19 Gemini scripts before any use. They send data to an outside model, trust its reply, and label ordinary cloud storage as immutable evidence. Their hashes include the clock, so they cannot be reproduced.
 
 ## Annex C: AI Use Declaration and Sources
 
@@ -169,5 +174,7 @@ AI tools were used substantially in preparing this memorandum, including for the
 **Verification.** Claude checked about 50 case, statute and regulatory claims against public sources, as of October 31, 2026. Sources are linked where each claim appears. Most are primary, though several rest on secondary reporting, including the Barclays last-look order, the Qingdao sentence, and the First Brands and Tricolor plea details.
 
 **Status of cited matters.** Several outcomes remain open. The Archegos and Sanjay Shah convictions were reported as under appeal, Markus Braun's Wirecard trial has no verdict, and the First Brands, Tricolor and CQC cases are unresolved as to the remaining defendants.
+
+**Public repository.** Claude converted the corrected documents to Markdown and built the scheme tracker and review guide. A word-by-word comparison with the corrected Word text found no lost content. The scripts and thresholds remain unvalidated.
 
 Claude is not an author of this work. The author takes full responsibility for its content.

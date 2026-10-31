@@ -1,0 +1,43 @@
+name: Formula or threshold problem
+description: Report a screening test that is miscalculated, untestable or misleading
+title: "[Formula] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use public or synthetic data only. Do not post bank, client or other non-public information.
+  - type: input
+    id: test
+    attributes:
+      label: Test name and batch
+      description: For example LLASR in Batch 7
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type of problem
+      options:
+        - Math or units are wrong
+        - Threshold flags ordinary firms
+        - Test would miss known cases
+        - Required data is not available
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: detail
+    attributes:
+      label: What is wrong
+      description: A worked example helps
+    validations:
+      required: true
+  - type: textarea
+    id: fix
+    attributes:
+      label: Suggested fix
+  - type: textarea
+    id: source
+    attributes:
+      label: Source or data
+      description: Link any data, rule or paper you relied on

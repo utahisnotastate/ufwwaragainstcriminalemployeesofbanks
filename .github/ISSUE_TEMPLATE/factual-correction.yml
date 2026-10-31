@@ -1,0 +1,36 @@
+name: Factual correction
+description: Report a statement about a case, rule or market that is wrong or out of date
+title: "[Fact] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please name no suspects and post nothing confidential. If you know about a real crime, use the official channels in the README.
+  - type: input
+    id: location
+    attributes:
+      label: Scheme ID or location
+      description: For example B07.2, or "Petition, Annex B"
+    validations:
+      required: true
+  - type: textarea
+    id: quote
+    attributes:
+      label: Exact text
+      description: Quote the words you are challenging
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: What is correct
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Source
+      description: Link the strongest source you have, with its date
+    validations:
+      required: true

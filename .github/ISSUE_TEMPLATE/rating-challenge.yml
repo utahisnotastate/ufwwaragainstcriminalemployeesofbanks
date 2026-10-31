@@ -1,0 +1,51 @@
+name: Rating challenge
+description: Argue that a scheme's rating in the tracker should change
+title: "[Rating] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please name no suspects and post nothing confidential. Discuss people or firms only as they appear in public court or regulator records.
+  - type: input
+    id: scheme
+    attributes:
+      label: Scheme ID
+      description: For example B07.2
+    validations:
+      required: true
+  - type: dropdown
+    id: current
+    attributes:
+      label: Current rating
+      options:
+        - Documented
+        - Plausible lead
+        - Lawful or policy
+        - Unsupported
+    validations:
+      required: true
+  - type: dropdown
+    id: proposed
+    attributes:
+      label: Proposed rating
+      options:
+        - Documented
+        - Plausible lead
+        - Lawful or policy
+        - Unsupported
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: Why the rating should change
+      description: The rating definitions are in CONTRIBUTING.md
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Source
+      description: Link the strongest source you have, with its date
+    validations:
+      required: true
